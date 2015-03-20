@@ -5,8 +5,8 @@ var should = chai.should()
 describe('Testing mocha', function() {
   it('Should add a test object', function() {
     var test = {
-      foo: 'bar'
+      foo: 'foo'
     }
-    expect(test).to.include({ foo: 'bar' })
+    expect(test).to.include({ foo: 'foo' })
   })
 })

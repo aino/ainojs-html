@@ -1,0 +1,21 @@
+{
+  "name": "ainojs-html",
+  "version": "1.0.0",
+  "description": "HTML string manipulations using DOM",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aino/ainojs-html"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/aino/ainojs-html/issues"
+  },
+  "homepage": "https://github.com/aino/ainojs-detect",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aino",
+  "devDependencies": {}
+}

@@ -1,0 +1,3 @@
+#!/bin/bash
+./node_modules/.bin/browserify index.js --s Html > test/index.js
+./node_modules/.bin/mocha-phantomjs test/unit.html

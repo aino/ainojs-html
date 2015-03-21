@@ -1,6 +1,6 @@
 {
   "name": "ainojs-html",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "HTML string manipulations using DOM",
   "repository": {
     "type": "git",

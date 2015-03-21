@@ -1,3 +1,3 @@
 node_modules
 .DS_Store
-tests/index.js
+tests/unit.bundle.js

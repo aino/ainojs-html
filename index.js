@@ -1,8 +1,8 @@
 var Arr = Array.prototype
 
 module.exports = function(html) {
-  if ( !(this instanceof Dom) )
-    return new Dom(html)
+  if ( !(this instanceof module.exports) )
+    return new module.exports(html)
   this.wrapper = document.createElement('div')
   this.wrapper.innerHTML = html
 }
@@ -28,8 +28,8 @@ module.exports.prototype.toHTML = function() {
 module.exports.prototype.removeAttr = function() {
   Arr.forEach.call(arguments, function(attr) {
     this.each('['+attr+']', function(element) {
-      element.removeAttribute(key)
+      element.removeAttribute(attr)
     })
-  })
+  }, this)
   return this
 }

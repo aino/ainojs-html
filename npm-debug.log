@@ -1,0 +1,128 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/david/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/40/hp4zmr0s20db316q78y0nr0w0000gn/T/npm-38922-5DxZGvgn/1426942121749-0.29317449452355504/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/40/hp4zmr0s20db316q78y0nr0w0000gn/T/npm-38922-5DxZGvgn/1426942121749-0.29317449452355504/tmp.tgz
+12 verbose folder .
+13 info prepublish ainojs-html@1.0.1
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/david/.npm/1f1177db-tar.lock
+16 silly lockFile 6e6aa814-1749-0-29317449452355504-tmp-tgz tar:///var/folders/40/hp4zmr0s20db316q78y0nr0w0000gn/T/npm-38922-5DxZGvgn/1426942121749-0.29317449452355504/tmp.tgz
+17 verbose lock tar:///var/folders/40/hp4zmr0s20db316q78y0nr0w0000gn/T/npm-38922-5DxZGvgn/1426942121749-0.29317449452355504/tmp.tgz /Users/david/.npm/6e6aa814-1749-0-29317449452355504-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 6e6aa814-1749-0-29317449452355504-tmp-tgz tar:///var/folders/40/hp4zmr0s20db316q78y0nr0w0000gn/T/npm-38922-5DxZGvgn/1426942121749-0.29317449452355504/tmp.tgz
+21 silly lockFile 6e6aa814-1749-0-29317449452355504-tmp-tgz tar:///var/folders/40/hp4zmr0s20db316q78y0nr0w0000gn/T/npm-38922-5DxZGvgn/1426942121749-0.29317449452355504/tmp.tgz
+22 verbose tar unpack /var/folders/40/hp4zmr0s20db316q78y0nr0w0000gn/T/npm-38922-5DxZGvgn/1426942121749-0.29317449452355504/tmp.tgz
+23 silly lockFile 8094bbca-1749-0-29317449452355504-package tar:///var/folders/40/hp4zmr0s20db316q78y0nr0w0000gn/T/npm-38922-5DxZGvgn/1426942121749-0.29317449452355504/package
+24 verbose lock tar:///var/folders/40/hp4zmr0s20db316q78y0nr0w0000gn/T/npm-38922-5DxZGvgn/1426942121749-0.29317449452355504/package /Users/david/.npm/8094bbca-1749-0-29317449452355504-package.lock
+25 silly lockFile 6e6aa814-1749-0-29317449452355504-tmp-tgz tar:///var/folders/40/hp4zmr0s20db316q78y0nr0w0000gn/T/npm-38922-5DxZGvgn/1426942121749-0.29317449452355504/tmp.tgz
+26 verbose lock tar:///var/folders/40/hp4zmr0s20db316q78y0nr0w0000gn/T/npm-38922-5DxZGvgn/1426942121749-0.29317449452355504/tmp.tgz /Users/david/.npm/6e6aa814-1749-0-29317449452355504-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry .npmignore
+30 silly gunzTarPerm extractEntry README.md
+31 silly gunzTarPerm extractEntry index.js
+32 silly gunzTarPerm extractEntry .travis.yml
+33 silly gunzTarPerm modified mode [ '.travis.yml', 436, 420 ]
+34 silly gunzTarPerm extractEntry dist/html.min.js
+35 silly gunzTarPerm extractEntry run-tests
+36 silly gunzTarPerm extractEntry test/index.js
+37 silly gunzTarPerm extractEntry test/unit.js
+38 silly gunzTarPerm modified mode [ 'test/unit.js', 436, 420 ]
+39 silly gunzTarPerm extractEntry test/unit.html
+40 silly gunzTarPerm modified mode [ 'test/unit.html', 436, 420 ]
+41 silly lockFile 8094bbca-1749-0-29317449452355504-package tar:///var/folders/40/hp4zmr0s20db316q78y0nr0w0000gn/T/npm-38922-5DxZGvgn/1426942121749-0.29317449452355504/package
+42 silly lockFile 8094bbca-1749-0-29317449452355504-package tar:///var/folders/40/hp4zmr0s20db316q78y0nr0w0000gn/T/npm-38922-5DxZGvgn/1426942121749-0.29317449452355504/package
+43 silly lockFile 6e6aa814-1749-0-29317449452355504-tmp-tgz tar:///var/folders/40/hp4zmr0s20db316q78y0nr0w0000gn/T/npm-38922-5DxZGvgn/1426942121749-0.29317449452355504/tmp.tgz
+44 silly lockFile 6e6aa814-1749-0-29317449452355504-tmp-tgz tar:///var/folders/40/hp4zmr0s20db316q78y0nr0w0000gn/T/npm-38922-5DxZGvgn/1426942121749-0.29317449452355504/tmp.tgz
+45 verbose tar pack [ '/Users/david/.npm/ainojs-html/1.0.1/package.tgz',
+45 verbose tar pack   '/var/folders/40/hp4zmr0s20db316q78y0nr0w0000gn/T/npm-38922-5DxZGvgn/1426942121749-0.29317449452355504/package' ]
+46 verbose tarball /Users/david/.npm/ainojs-html/1.0.1/package.tgz
+47 verbose folder /var/folders/40/hp4zmr0s20db316q78y0nr0w0000gn/T/npm-38922-5DxZGvgn/1426942121749-0.29317449452355504/package
+48 silly lockFile 8094bbca-1749-0-29317449452355504-package tar:///var/folders/40/hp4zmr0s20db316q78y0nr0w0000gn/T/npm-38922-5DxZGvgn/1426942121749-0.29317449452355504/package
+49 verbose lock tar:///var/folders/40/hp4zmr0s20db316q78y0nr0w0000gn/T/npm-38922-5DxZGvgn/1426942121749-0.29317449452355504/package /Users/david/.npm/8094bbca-1749-0-29317449452355504-package.lock
+50 silly lockFile 1c44a015-pm-ainojs-html-1-0-1-package-tgz tar:///Users/david/.npm/ainojs-html/1.0.1/package.tgz
+51 verbose lock tar:///Users/david/.npm/ainojs-html/1.0.1/package.tgz /Users/david/.npm/1c44a015-pm-ainojs-html-1-0-1-package-tgz.lock
+52 silly lockFile 8094bbca-1749-0-29317449452355504-package tar:///var/folders/40/hp4zmr0s20db316q78y0nr0w0000gn/T/npm-38922-5DxZGvgn/1426942121749-0.29317449452355504/package
+53 silly lockFile 8094bbca-1749-0-29317449452355504-package tar:///var/folders/40/hp4zmr0s20db316q78y0nr0w0000gn/T/npm-38922-5DxZGvgn/1426942121749-0.29317449452355504/package
+54 silly lockFile 1c44a015-pm-ainojs-html-1-0-1-package-tgz tar:///Users/david/.npm/ainojs-html/1.0.1/package.tgz
+55 silly lockFile 1c44a015-pm-ainojs-html-1-0-1-package-tgz tar:///Users/david/.npm/ainojs-html/1.0.1/package.tgz
+56 silly lockFile bebbb57d-id-npm-ainojs-html-1-0-1-package /Users/david/.npm/ainojs-html/1.0.1/package
+57 verbose lock /Users/david/.npm/ainojs-html/1.0.1/package /Users/david/.npm/bebbb57d-id-npm-ainojs-html-1-0-1-package.lock
+58 silly lockFile bebbb57d-id-npm-ainojs-html-1-0-1-package /Users/david/.npm/ainojs-html/1.0.1/package
+59 silly lockFile bebbb57d-id-npm-ainojs-html-1-0-1-package /Users/david/.npm/ainojs-html/1.0.1/package
+60 verbose tar unpack /Users/david/.npm/ainojs-html/1.0.1/package.tgz
+61 silly lockFile 14bc2313-id-npm-ainojs-html-1-0-1-package tar:///Users/david/.npm/ainojs-html/1.0.1/package
+62 verbose lock tar:///Users/david/.npm/ainojs-html/1.0.1/package /Users/david/.npm/14bc2313-id-npm-ainojs-html-1-0-1-package.lock
+63 silly lockFile 1c44a015-pm-ainojs-html-1-0-1-package-tgz tar:///Users/david/.npm/ainojs-html/1.0.1/package.tgz
+64 verbose lock tar:///Users/david/.npm/ainojs-html/1.0.1/package.tgz /Users/david/.npm/1c44a015-pm-ainojs-html-1-0-1-package-tgz.lock
+65 silly gunzTarPerm modes [ '755', '644' ]
+66 silly gunzTarPerm extractEntry package.json
+67 silly gunzTarPerm extractEntry .npmignore
+68 silly gunzTarPerm extractEntry README.md
+69 silly gunzTarPerm extractEntry index.js
+70 silly gunzTarPerm extractEntry .travis.yml
+71 silly gunzTarPerm extractEntry dist/html.min.js
+72 silly gunzTarPerm extractEntry run-tests
+73 silly gunzTarPerm extractEntry test/index.js
+74 silly gunzTarPerm extractEntry test/unit.js
+75 silly gunzTarPerm extractEntry test/unit.html
+76 silly lockFile 14bc2313-id-npm-ainojs-html-1-0-1-package tar:///Users/david/.npm/ainojs-html/1.0.1/package
+77 silly lockFile 14bc2313-id-npm-ainojs-html-1-0-1-package tar:///Users/david/.npm/ainojs-html/1.0.1/package
+78 silly lockFile 1c44a015-pm-ainojs-html-1-0-1-package-tgz tar:///Users/david/.npm/ainojs-html/1.0.1/package.tgz
+79 silly lockFile 1c44a015-pm-ainojs-html-1-0-1-package-tgz tar:///Users/david/.npm/ainojs-html/1.0.1/package.tgz
+80 verbose chmod /Users/david/.npm/ainojs-html/1.0.1/package.tgz 644
+81 verbose chown /Users/david/.npm/ainojs-html/1.0.1/package.tgz [ 501, 20 ]
+82 silly lockFile 3a52ce78- .
+83 silly lockFile 3a52ce78- .
+84 silly publish { name: 'ainojs-html',
+84 silly publish   version: '1.0.1',
+84 silly publish   description: 'HTML string manipulations using DOM',
+84 silly publish   repository: { type: 'git', url: 'https://github.com/aino/ainojs-html' },
+84 silly publish   license: 'MIT',
+84 silly publish   dependencies: {},
+84 silly publish   bugs: { url: 'https://github.com/aino/ainojs-html/issues' },
+84 silly publish   homepage: 'https://github.com/aino/ainojs-detect',
+84 silly publish   main: 'index.js',
+84 silly publish   scripts: { test: './run-tests' },
+84 silly publish   author: { name: 'Aino' },
+84 silly publish   devDependencies:
+84 silly publish    { 'mocha-phantomjs': '^3.5.3',
+84 silly publish      mocha: '^2.2.1',
+84 silly publish      chai: '^2.1.2',
+84 silly publish      browserify: '^9.0.3',
+84 silly publish      phantomjs: '^1.9.16' },
+84 silly publish   readme: 'HTML\n----\n\nHTML string manipulations using DOM',
+84 silly publish   readmeFilename: 'README.md',
+84 silly publish   _id: 'ainojs-html@1.0.1',
+84 silly publish   dist: { shasum: 'a1650c4d7275e3977d4d68be1df6b3e290de8dfb' },
+84 silly publish   _from: '.' }
+85 error need auth auth and email required for publishing
+85 error need auth You need to authorize this machine using `npm adduser`
+86 error System Darwin 12.4.1
+87 error command "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
+88 error cwd /Users/david/Projects/ainojs-html
+89 error node -v v0.10.26
+90 error npm -v 1.4.3
+91 error code ENEEDAUTH
+92 verbose exit [ 1, true ]

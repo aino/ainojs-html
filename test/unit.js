@@ -8,21 +8,21 @@ var should = chai.should()
 describe('constructor', function() {
   it('Should create a new instance without the new keyword', function() {
     var html = HTML('<s></s>')
-    assert(html instanceof HTML, 'Instance created')
+    expect(html).to.be.an.instanceof(HTML)
   })
 })
 
 describe('query', function() {
   it('Should select elements from selector', function() {
     var html = HTML('<s><b id="foo"></b></s>')
-    assert(html.query('#foo')[0].id == 'foo', 'Elements are equal')
+    expect(html.query('#foo')[0].id).to.equal('foo')
   })
 })
 
 describe('toHTML', function() {
   it('Should generate new HTML', function() {
     var html = '<s><b id="foo"></b></s>'
-    assert(HTML(html).toHTML() == html, 'HTML generated')
+    expect(HTML(html).toHTML()).to.equal(html)
   })
 })
 
